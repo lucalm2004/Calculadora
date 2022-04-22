@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora JS</title>
     <script src="js/main.js"></script>
-</head>
-<body>
-    <input type="number" id="valor1" placeholder="inserte un valor..."> 
-    <input type="number" id="valor2" placeholder="inserte un valor..."> 
-    <select name="" id="operacion">
-        <option value="sumar">sumar (+)</option>
-        <option value="restar">restar (-)</option>
-        <option value="multiplicar">multiplicar (*)</option>
-        <option value="dividir">dividir (/)</option>
+    <link rel="stylesheet" href="css/styles.css">
 
-    </select>
-    <button value="Calcular" onclick="calcular()" >Calcular</button>
-    <p id="resultado"></p>
+</head>
+<body class="flex">
+    <div >
+        <input type="number" id="valor1" placeholder="inserte un valor..."> 
+        <br>
+        <input type="number" id="valor2" placeholder="inserte un valor..."> 
+        <br>
+        <select name="" id="operacion">
+            <option value="sumar">sumar (+)</option>
+            <option value="restar">restar (-)</option>
+            <option value="multiplicar">multiplicar (*)</option>
+            <option value="dividir">dividir (/)</option>
+        </select>
+        <br>
+        <button value="Calcular" onclick="calcular()">Calcular</button>
+        <br>
+        <p id="resultado"></p>
+    </div>
+    
 </body>
 </html>
