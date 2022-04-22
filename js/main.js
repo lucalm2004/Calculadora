@@ -14,7 +14,8 @@ function calcular() {
     };
 
     var parrafo = document.getElementById('resultado')
-    parrafo.innerHTML=resultado
+    parrafo.innerHTML='el resultado es ' +resultado
+
     //alert('Voy a '+operacion+'los valores'+valor1 + ' y '+valor2);
 
    
